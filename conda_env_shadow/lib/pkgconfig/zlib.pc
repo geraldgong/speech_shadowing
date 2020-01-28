@@ -1,4 +1,4 @@
-prefix=/Users/ygong/Documents/speech_shadowing/conda_env_shadow
+prefix=/home/gong/Documents/speech_shadowing/conda_env_shadow
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 sharedlibdir=${libdir}

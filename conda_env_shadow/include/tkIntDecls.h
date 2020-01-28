@@ -334,21 +334,21 @@ EXTERN Tcl_Obj *	TkpGetSystemDefault(Tk_Window tkwin,
 /* 112 */
 EXTERN void		TkpMenuThreadInit(void);
 /* 113 */
-EXTERN int		TkClipBox(TkRegion rgn, XRectangle *rect_return);
+EXTERN void		TkClipBox(TkRegion rgn, XRectangle *rect_return);
 /* 114 */
 EXTERN TkRegion		TkCreateRegion(void);
 /* 115 */
-EXTERN int		TkDestroyRegion(TkRegion rgn);
+EXTERN void		TkDestroyRegion(TkRegion rgn);
 /* 116 */
-EXTERN int		TkIntersectRegion(TkRegion sra, TkRegion srcb,
+EXTERN void		TkIntersectRegion(TkRegion sra, TkRegion srcb,
 				TkRegion dr_return);
 /* 117 */
 EXTERN int		TkRectInRegion(TkRegion rgn, int x, int y,
 				unsigned int width, unsigned int height);
 /* 118 */
-EXTERN int		TkSetRegion(Display *display, GC gc, TkRegion rgn);
+EXTERN void		TkSetRegion(Display *display, GC gc, TkRegion rgn);
 /* 119 */
-EXTERN int		TkUnionRectWithRegion(XRectangle *rect, TkRegion src,
+EXTERN void		TkUnionRectWithRegion(XRectangle *rect, TkRegion src,
 				TkRegion dr_return);
 /* Slot 120 is reserved */
 #ifdef MAC_OSX_TK /* AQUA */
@@ -400,7 +400,7 @@ EXTERN void		TkClipCleanup(TkDisplay *dispPtr);
 /* 144 */
 EXTERN void		TkGCCleanup(TkDisplay *dispPtr);
 /* 145 */
-EXTERN int		TkSubtractRegion(TkRegion sra, TkRegion srcb,
+EXTERN void		TkSubtractRegion(TkRegion sra, TkRegion srcb,
 				TkRegion dr_return);
 /* 146 */
 EXTERN void		TkStylePkgInit(TkMainInfo *mainPtr);
@@ -668,13 +668,13 @@ typedef struct TkIntStubs {
     void (*tkpGetSubFonts) (Tcl_Interp *interp, Tk_Font tkfont); /* 110 */
     Tcl_Obj * (*tkpGetSystemDefault) (Tk_Window tkwin, const char *dbName, const char *className); /* 111 */
     void (*tkpMenuThreadInit) (void); /* 112 */
-    int (*tkClipBox) (TkRegion rgn, XRectangle *rect_return); /* 113 */
+    void (*tkClipBox) (TkRegion rgn, XRectangle *rect_return); /* 113 */
     TkRegion (*tkCreateRegion) (void); /* 114 */
-    int (*tkDestroyRegion) (TkRegion rgn); /* 115 */
-    int (*tkIntersectRegion) (TkRegion sra, TkRegion srcb, TkRegion dr_return); /* 116 */
+    void (*tkDestroyRegion) (TkRegion rgn); /* 115 */
+    void (*tkIntersectRegion) (TkRegion sra, TkRegion srcb, TkRegion dr_return); /* 116 */
     int (*tkRectInRegion) (TkRegion rgn, int x, int y, unsigned int width, unsigned int height); /* 117 */
-    int (*tkSetRegion) (Display *display, GC gc, TkRegion rgn); /* 118 */
-    int (*tkUnionRectWithRegion) (XRectangle *rect, TkRegion src, TkRegion dr_return); /* 119 */
+    void (*tkSetRegion) (Display *display, GC gc, TkRegion rgn); /* 118 */
+    void (*tkUnionRectWithRegion) (XRectangle *rect, TkRegion src, TkRegion dr_return); /* 119 */
     void (*reserved120)(void);
 #if !(defined(_WIN32) || defined(MAC_OSX_TK)) /* X11 */
     void (*reserved121)(void);
@@ -727,7 +727,7 @@ typedef struct TkIntStubs {
     void (*tkFocusFree) (TkMainInfo *mainPtr); /* 142 */
     void (*tkClipCleanup) (TkDisplay *dispPtr); /* 143 */
     void (*tkGCCleanup) (TkDisplay *dispPtr); /* 144 */
-    int (*tkSubtractRegion) (TkRegion sra, TkRegion srcb, TkRegion dr_return); /* 145 */
+    void (*tkSubtractRegion) (TkRegion sra, TkRegion srcb, TkRegion dr_return); /* 145 */
     void (*tkStylePkgInit) (TkMainInfo *mainPtr); /* 146 */
     void (*tkStylePkgFree) (TkMainInfo *mainPtr); /* 147 */
     Tk_Window (*tkToplevelWindowForCommand) (Tcl_Interp *interp, const char *cmdName); /* 148 */

@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/home/gong/Documents/speech_shadowing/conda_env_shadow/bin/perl
 # Copyright 2000-2018 The OpenSSL Project Authors. All Rights Reserved.
 #
 # Licensed under the OpenSSL license (the "License").  You may not use

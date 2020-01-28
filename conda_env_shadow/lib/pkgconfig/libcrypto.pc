@@ -1,4 +1,4 @@
-prefix=/Users/ygong/Documents/speech_shadowing/conda_env_shadow
+prefix=/home/gong/Documents/speech_shadowing/conda_env_shadow
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
@@ -8,5 +8,5 @@ Name: OpenSSL-libcrypto
 Description: OpenSSL cryptography library
 Version: 1.1.1d
 Libs: -L${libdir} -lcrypto
-Libs.private:  
+Libs.private: -ldl -pthread 
 Cflags: -I${includedir}

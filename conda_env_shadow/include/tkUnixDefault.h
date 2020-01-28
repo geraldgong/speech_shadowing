@@ -31,7 +31,8 @@
 #define ACTIVE_BG	"#ececec"
 #define SELECT_BG	"#c3c3c3"
 #define TROUGH		"#b3b3b3"
-#define INDICATOR	WHITE
+#define CHECK_INDICATOR	WHITE
+#define MENU_INDICATOR  BLACK
 #define DISABLED	"#a3a3a3"
 
 /*
@@ -78,7 +79,7 @@
 #define DEF_LABCHKRAD_RELIEF		"flat"
 #define DEF_BUTTON_REPEAT_DELAY		"0"
 #define DEF_BUTTON_REPEAT_INTERVAL	"0"
-#define DEF_BUTTON_SELECT_COLOR		INDICATOR
+#define DEF_BUTTON_SELECT_COLOR		CHECK_INDICATOR
 #define DEF_BUTTON_SELECT_MONO		BLACK
 #define DEF_BUTTON_SELECT_IMAGE		((char *) NULL)
 #define DEF_BUTTON_STATE		"normal"
@@ -243,7 +244,7 @@
 #define DEF_MENU_ENTRY_ACTIVE_FG	((char *) NULL)
 #define DEF_MENU_ENTRY_ACCELERATOR	((char *) NULL)
 #define DEF_MENU_ENTRY_BG		((char *) NULL)
-#define DEF_MENU_ENTRY_BITMAP		NULL
+#define DEF_MENU_ENTRY_BITMAP		None
 #define DEF_MENU_ENTRY_COLUMN_BREAK	"0"
 #define DEF_MENU_ENTRY_COMMAND		((char *) NULL)
 #define DEF_MENU_ENTRY_COMPOUND 	"none"
@@ -283,7 +284,7 @@
 #define DEF_MENU_FG			BLACK
 #define DEF_MENU_POST_COMMAND		""
 #define DEF_MENU_RELIEF			"raised"
-#define DEF_MENU_SELECT_COLOR		BLACK
+#define DEF_MENU_SELECT_COLOR		MENU_INDICATOR
 #define DEF_MENU_SELECT_MONO		BLACK
 #define DEF_MENU_TAKE_FOCUS		"0"
 #define DEF_MENU_TEAROFF		"1"
@@ -512,14 +513,6 @@
  */
 
 #define DEF_CANVTEXT_FONT		"TkDefaultFont"
-
-/*
- * Defaults for canvas items
- * (arcs, bitmaps, lines, polygons, rectangles, and ovals):
- */
-
-#define DEF_CANVBMAP_FG			BLACK
-#define DEF_CANVITEM_OUTLINE		BLACK
 
 /*
  * Defaults for toplevels (most of the defaults for frames also apply

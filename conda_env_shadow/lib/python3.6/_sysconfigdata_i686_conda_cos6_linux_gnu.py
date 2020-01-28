@@ -8,17 +8,17 @@ build_time_vars = {'ABIFLAGS': 'm',
  'BASECFLAGS': '-Wno-unused-result -Wsign-compare',
  'BASECPPFLAGS': '-IObjects -IInclude -IPython',
  'BASEMODLIBS': '',
- 'BINDIR': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/bin',
- 'BINLIBDEST': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib/python3.6',
+ 'BINDIR': '/home/gong/Documents/speech_shadowing/conda_env_shadow/bin',
+ 'BINLIBDEST': '/home/gong/Documents/speech_shadowing/conda_env_shadow/lib/python3.6',
  'BLDLIBRARY': 'libpython3.6m.a',
  'BLDSHARED': 'i686-conda_cos6-linux-gnu-gcc -pthread -shared -Wl,-O2 '
               '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-              '-Wl,-rpath,/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
-              '-L/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
+              '-Wl,-rpath,/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
+              '-L/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
               '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
               '-Wl,-z,now '
-              '-Wl,-rpath,/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
-              '-L/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
+              '-Wl,-rpath,/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
+              '-L/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
               '   '
               '',
  'BUILDEXE': '',
@@ -46,18 +46,18 @@ build_time_vars = {'ABIFLAGS': 'm',
                             '-Wno-unused-parameter '
                             '-Wno-missing-field-initializers',
  'CONFIGURE_CPPFLAGS': '-D_FORTIFY_SOURCE=2 -O2 '
-                       '-I/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include',
+                       '-I/home/gong/Documents/speech_shadowing/conda_env_shadow/include',
  'CONFIGURE_LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                       '-Wl,-z,now '
-                      '-Wl,-rpath,/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
-                      '-L/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib',
- 'CONFIG_ARGS': "'--prefix=/Users/ygong/Documents/speech_shadowing/conda_env_shadow' "
+                      '-Wl,-rpath,/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
+                      '-L/home/gong/Documents/speech_shadowing/conda_env_shadow/lib',
+ 'CONFIG_ARGS': "'--prefix=/home/gong/Documents/speech_shadowing/conda_env_shadow' "
                 "'--build=i686-conda_cos6-linux-gnu' "
                 "'--host=i686-conda_cos6-linux-gnu' '--enable-ipv6' "
                 "'--with-ensurepip=no' '--with-computed-gotos' "
                 "'--with-system-ffi' '--enable-loadable-sqlite-extensions' "
-                "'--with-tcltk-includes=-I/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include' "
-                "'--with-tcltk-libs=-L/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib "
+                "'--with-tcltk-includes=-I/home/gong/Documents/speech_shadowing/conda_env_shadow/include' "
+                "'--with-tcltk-libs=-L/home/gong/Documents/speech_shadowing/conda_env_shadow/lib "
                 "-ltcl8.6 -ltk8.6' '--enable-optimizations' '--with-lto' "
                 "'--disable-shared' 'build_alias=i686-conda_cos6-linux-gnu' "
                 "'host_alias=i686-conda_cos6-linux-gnu' "
@@ -67,14 +67,14 @@ build_time_vars = {'ABIFLAGS': 'm',
                 '   '
                 "' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed "
                 '-Wl,-z,relro -Wl,-z,now '
-                '-Wl,-rpath,/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
-                "-L/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib' "
+                '-Wl,-rpath,/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
+                "-L/home/gong/Documents/speech_shadowing/conda_env_shadow/lib' "
                 "'CPPFLAGS=-D_FORTIFY_SOURCE=2 -O2 "
-                "-I/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include' "
-                "'CPP=/Users/ygong/Documents/speech_shadowing/conda_env_shadow/bin/i686-conda_cos6-linux-gnu-cpp' "
-                "'PKG_CONFIG_PATH=/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib/pkgconfig'",
- 'CONFINCLUDEDIR': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include',
- 'CONFINCLUDEPY': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include/python3.6m',
+                "-I/home/gong/Documents/speech_shadowing/conda_env_shadow/include' "
+                "'CPP=/home/gong/Documents/speech_shadowing/conda_env_shadow/bin/i686-conda_cos6-linux-gnu-cpp' "
+                "'PKG_CONFIG_PATH=/home/gong/Documents/speech_shadowing/conda_env_shadow/lib/pkgconfig'",
+ 'CONFINCLUDEDIR': '/home/gong/Documents/speech_shadowing/conda_env_shadow/include',
+ 'CONFINCLUDEPY': '/home/gong/Documents/speech_shadowing/conda_env_shadow/include/python3.6m',
  'COREPYTHONPATH': ':',
  'COVERAGE_INFO': '/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work/build-static/coverage.info',
  'COVERAGE_REPORT': '/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work/build-static/lcov-report',
@@ -83,17 +83,17 @@ build_time_vars = {'ABIFLAGS': 'm',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
              '-I/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work/Include '
              '-D_FORTIFY_SOURCE=2 -O2 '
-             '-I/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include '
+             '-I/home/gong/Documents/speech_shadowing/conda_env_shadow/include '
              '-D_FORTIFY_SOURCE=2 -O2 '
-             '-I/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include',
+             '-I/home/gong/Documents/speech_shadowing/conda_env_shadow/include',
  'CXX': 'i686-conda_cos6-linux-gnu-c++ -pthread',
- 'DESTDIRS': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow '
-             '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
-             '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib/python3.6 '
-             '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib/python3.6/lib-dynload',
- 'DESTLIB': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib/python3.6',
+ 'DESTDIRS': '/home/gong/Documents/speech_shadowing/conda_env_shadow '
+             '/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
+             '/home/gong/Documents/speech_shadowing/conda_env_shadow/lib/python3.6 '
+             '/home/gong/Documents/speech_shadowing/conda_env_shadow/lib/python3.6/lib-dynload',
+ 'DESTLIB': '/home/gong/Documents/speech_shadowing/conda_env_shadow/lib/python3.6',
  'DESTPATH': '',
- 'DESTSHARED': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib/python3.6/lib-dynload',
+ 'DESTSHARED': '/home/gong/Documents/speech_shadowing/conda_env_shadow/lib/python3.6/lib-dynload',
  'DFLAGS': '',
  'DIRMODE': 755,
  'DIST': 'README ChangeLog configure configure.ac acconfig.h pyconfig.h.in '
@@ -507,12 +507,12 @@ build_time_vars = {'ABIFLAGS': 'm',
  'HAVE_ZLIB_COPY': 1,
  'HAVE__GETPTY': 0,
  'HOST_GNU_TYPE': 'i686-conda_cos6-linux-gnu',
- 'INCLDIRSTOMAKE': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include '
-                   '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include '
-                   '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include/python3.6m '
-                   '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include/python3.6m',
- 'INCLUDEDIR': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include',
- 'INCLUDEPY': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include/python3.6m',
+ 'INCLDIRSTOMAKE': '/home/gong/Documents/speech_shadowing/conda_env_shadow/include '
+                   '/home/gong/Documents/speech_shadowing/conda_env_shadow/include '
+                   '/home/gong/Documents/speech_shadowing/conda_env_shadow/include/python3.6m '
+                   '/home/gong/Documents/speech_shadowing/conda_env_shadow/include/python3.6m',
+ 'INCLUDEDIR': '/home/gong/Documents/speech_shadowing/conda_env_shadow/include',
+ 'INCLUDEPY': '/home/gong/Documents/speech_shadowing/conda_env_shadow/include/python3.6m',
  'INSTALL': '/usr/bin/install -c',
  'INSTALL_DATA': '/usr/bin/install -c -m 644',
  'INSTALL_PROGRAM': '/usr/bin/install -c',
@@ -523,34 +523,34 @@ build_time_vars = {'ABIFLAGS': 'm',
  'IO_OBJS': '\\',
  'LDCXXSHARED': 'i686-conda_cos6-linux-gnu-c++ -pthread -shared',
  'LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-            '-Wl,-rpath,/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
-            '-L/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
+            '-Wl,-rpath,/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
+            '-L/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
             '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-            '-Wl,-rpath,/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
-            '-L/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
+            '-Wl,-rpath,/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
+            '-L/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
             '   ',
  'LDLAST': '',
  'LDLIBRARY': 'libpython3.6m.a',
  'LDLIBRARYDIR': '',
  'LDSHARED': 'i686-conda_cos6-linux-gnu-gcc -pthread -shared -Wl,-O2 '
              '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-             '-Wl,-rpath,/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
-             '-L/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
+             '-Wl,-rpath,/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
+             '-L/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
              '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
              '-Wl,-z,now '
-             '-Wl,-rpath,/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
-             '-L/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
+             '-Wl,-rpath,/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
+             '-L/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
              '   ',
  'LDVERSION': '3.6m',
  'LIBC': '',
- 'LIBDEST': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib/python3.6',
- 'LIBDIR': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib',
- 'LIBFFI_INCLUDEDIR': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include',
+ 'LIBDEST': '/home/gong/Documents/speech_shadowing/conda_env_shadow/lib/python3.6',
+ 'LIBDIR': '/home/gong/Documents/speech_shadowing/conda_env_shadow/lib',
+ 'LIBFFI_INCLUDEDIR': '/home/gong/Documents/speech_shadowing/conda_env_shadow/include',
  'LIBM': '-lm',
  'LIBOBJDIR': 'Python/',
  'LIBOBJS': '',
- 'LIBPC': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib/pkgconfig',
- 'LIBPL': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib/python3.6/config-3.6m-i386-linux-gnu',
+ 'LIBPC': '/home/gong/Documents/speech_shadowing/conda_env_shadow/lib/pkgconfig',
+ 'LIBPL': '/home/gong/Documents/speech_shadowing/conda_env_shadow/lib/python3.6/config-3.6m-i386-linux-gnu',
  'LIBRARY': 'libpython3.6m.a',
  'LIBRARY_OBJS': '\\',
  'LIBRARY_OBJS_OMIT_FROZEN': '\\',
@@ -568,13 +568,13 @@ build_time_vars = {'ABIFLAGS': 'm',
  'MACHDEP': 'linux',
  'MACHDEPPATH': ':',
  'MACHDEP_OBJS': '',
- 'MACHDESTLIB': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib/python3.6',
+ 'MACHDESTLIB': '/home/gong/Documents/speech_shadowing/conda_env_shadow/lib/python3.6',
  'MACOSX_DEPLOYMENT_TARGET': '',
  'MAINCC': 'i686-conda_cos6-linux-gnu-gcc -pthread',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 0,
  'MAKESETUP': '/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work/Modules/makesetup',
- 'MANDIR': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/share/man',
+ 'MANDIR': '/home/gong/Documents/speech_shadowing/conda_env_shadow/share/man',
  'MKDIR_P': '/bin/mkdir -p',
  'MODLIBS': '',
  'MODNAMES': '_thread posix errno pwd _sre _codecs _weakref _functools '
@@ -667,25 +667,25 @@ build_time_vars = {'ABIFLAGS': 'm',
                    '-IObjects -IInclude -IPython -I. '
                    '-I/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work/Include '
                    '-D_FORTIFY_SOURCE=2 -O2 '
-                   '-I/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include '
+                   '-I/home/gong/Documents/speech_shadowing/conda_env_shadow/include '
                    '-D_FORTIFY_SOURCE=2 -O2 '
-                   '-I/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include  '
+                   '-I/home/gong/Documents/speech_shadowing/conda_env_shadow/include  '
                    '-DPy_BUILD_CORE',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
                 '-I/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work/Include '
                 '-D_FORTIFY_SOURCE=2 -O2 '
-                '-I/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include '
+                '-I/home/gong/Documents/speech_shadowing/conda_env_shadow/include '
                 '-D_FORTIFY_SOURCE=2 -O2 '
-                '-I/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include',
+                '-I/home/gong/Documents/speech_shadowing/conda_env_shadow/include',
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                '-Wl,-z,now '
-               '-Wl,-rpath,/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
-               '-L/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
+               '-Wl,-rpath,/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
+               '-L/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
                '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                '-Wl,-z,now '
-               '-Wl,-rpath,/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
-               '-L/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
+               '-Wl,-rpath,/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
+               '-L/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
                '   '
                '',
  'Py_DEBUG': 0,
@@ -697,7 +697,7 @@ build_time_vars = {'ABIFLAGS': 'm',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
  'RUNSHARED': '',
- 'SCRIPTDIR': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib',
+ 'SCRIPTDIR': '/home/gong/Documents/speech_shadowing/conda_env_shadow/lib',
  'SETPGRP_HAVE_ARG': 0,
  'SGI_ABI': '',
  'SHELL': '/bin/sh',
@@ -733,8 +733,8 @@ build_time_vars = {'ABIFLAGS': 'm',
  'SYSLIBS': '-lm',
  'SYS_SELECT_WITH_SYS_TIME': 1,
  'TANH_PRESERVES_ZERO_SIGN': 1,
- 'TCLTK_INCLUDES': '-I/Users/ygong/Documents/speech_shadowing/conda_env_shadow/include',
- 'TCLTK_LIBS': '-L/Users/ygong/Documents/speech_shadowing/conda_env_shadow/lib '
+ 'TCLTK_INCLUDES': '-I/home/gong/Documents/speech_shadowing/conda_env_shadow/include',
+ 'TCLTK_LIBS': '-L/home/gong/Documents/speech_shadowing/conda_env_shadow/lib '
                '-ltcl8.6 -ltk8.6',
  'TESTOPTS': '',
  'TESTPATH': '',
@@ -767,7 +767,7 @@ build_time_vars = {'ABIFLAGS': 'm',
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
  'abs_builddir': '/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work/build-static',
  'abs_srcdir': '/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work',
- 'datarootdir': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow/share',
- 'exec_prefix': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow',
- 'prefix': '/Users/ygong/Documents/speech_shadowing/conda_env_shadow',
+ 'datarootdir': '/home/gong/Documents/speech_shadowing/conda_env_shadow/share',
+ 'exec_prefix': '/home/gong/Documents/speech_shadowing/conda_env_shadow',
+ 'prefix': '/home/gong/Documents/speech_shadowing/conda_env_shadow',
  'srcdir': '/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work'}

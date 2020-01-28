@@ -1,6 +1,6 @@
 # Package Information for pkg-config
 
-prefix=/Users/ygong/Documents/speech_shadowing/conda_env_shadow
+prefix=/home/gong/Documents/speech_shadowing/conda_env_shadow
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
@@ -9,5 +9,5 @@ Name: SQLite
 Description: SQL database engine
 Version: 3.30.1
 Libs: -L${libdir} -lsqlite3
-Libs.private: -lz 
+Libs.private: -lm -ldl -lpthread 
 Cflags: -I${includedir}

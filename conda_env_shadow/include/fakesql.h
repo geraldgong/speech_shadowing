@@ -92,7 +92,6 @@ typedef HWND SQLHWND;
 
 #define SQL_NULL_HANDLE ((SQLHANDLE) 0)
 #define SQL_NULL_HENV ((SQLHENV) 0)
-#define SQL_NULL_HDBC ((SQLHDBC) 0)
 #define SQL_NULL_HSTMT ((SQLHSTMT) 0)
 
 /* SQL data types */
@@ -145,7 +144,6 @@ enum _SQL_DATATYPE {
 #define	   SQL_NO_TOTAL (-4)
 #define    SQL_SUCCESS 0
 #define    SQL_SUCCESS_WITH_INFO 1
-#define    SQL_SUCCEEDED(rc) (((rc)&(~1))==0)
 
 /* Diagnostic fields */
 
@@ -177,7 +175,6 @@ enum _SQL_DIAG {
 #define SQL_ATTR_CONNECTION_TIMEOUT 113
 #define SQL_ATTR_ODBC_VERSION 200
 #define SQL_ATTR_TXN_ISOLATION SQL_TXN_ISOLATION
-#define SQL_ATTR_AUTOCOMMIT SQL_AUTOCOMMIT
 
 /* Nullable? */
 
@@ -190,7 +187,6 @@ enum _SQL_DIAG {
 /* ODBC versions */
 
 #define SQL_OV_ODBC3 3UL
-#define SQL_ODBC_VER 10
 
 /* SQLDriverConnect flags */
 

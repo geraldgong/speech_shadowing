@@ -46,7 +46,6 @@ extern void exit();
 
 extern HIST_ENTRY **history_list ();
 
-int
 main ()
 {
   char *temp, *prompt;

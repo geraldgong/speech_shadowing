@@ -1,0 +1,2 @@
+ipykernel
+git+https://github.com/amsehili/auditok.git

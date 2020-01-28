@@ -27,7 +27,9 @@ PyAPI_FUNC(void) Py_InitializeEx(int);
 PyAPI_FUNC(void) _Py_InitializeEx_Private(int, int);
 #endif
 PyAPI_FUNC(void) Py_Finalize(void);
+#if !defined(Py_LIMITED_API) || Py_LIMITED_API+0 >= 0x03060000
 PyAPI_FUNC(int) Py_FinalizeEx(void);
+#endif
 PyAPI_FUNC(int) Py_IsInitialized(void);
 PyAPI_FUNC(PyThreadState *) Py_NewInterpreter(void);
 PyAPI_FUNC(void) Py_EndInterpreter(PyThreadState *);
@@ -64,6 +66,7 @@ int _Py_CheckPython3();
 #endif
 
 /* In their own files */
+PyAPI_FUNC(const char *) Anaconda_GetVersion(void);
 PyAPI_FUNC(const char *) Py_GetVersion(void);
 PyAPI_FUNC(const char *) Py_GetPlatform(void);
 PyAPI_FUNC(const char *) Py_GetCopyright(void);

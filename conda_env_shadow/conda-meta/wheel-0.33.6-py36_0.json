@@ -1,13 +1,13 @@
 {
   "build": "py36_0",
   "build_number": 0,
-  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
   "constrains": [],
   "depends": [
     "python >=3.6,<3.7.0a0",
     "setuptools"
   ],
-  "extracted_package_dir": "/Users/ygong/miniconda3/pkgs/wheel-0.33.6-py36_0",
+  "extracted_package_dir": "/home/gong/miniconda3/pkgs/wheel-0.33.6-py36_0",
   "features": "",
   "files": [
     "bin/wheel",
@@ -43,15 +43,16 @@
     "lib/python3.6/site-packages/wheel/util.py",
     "lib/python3.6/site-packages/wheel/wheelfile.py"
   ],
-  "fn": "wheel-0.33.6-py36_0.tar.bz2",
+  "fn": "wheel-0.33.6-py36_0.conda",
+  "legacy_bz2_md5": "96d7edd76bd3e241fdd690dbeeb29976",
   "license": "MIT",
   "link": {
-    "source": "/Users/ygong/miniconda3/pkgs/wheel-0.33.6-py36_0",
+    "source": "/home/gong/miniconda3/pkgs/wheel-0.33.6-py36_0",
     "type": 3
   },
-  "md5": "622b013ad90398ac1472179cc40afae9",
+  "md5": "c24ef8c87277ac78de23e86013989ab0",
   "name": "wheel",
-  "package_tarball_full_path": "/Users/ygong/miniconda3/pkgs/wheel-0.33.6-py36_0.tar.bz2",
+  "package_tarball_full_path": "/home/gong/miniconda3/pkgs/wheel-0.33.6-py36_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -60,7 +61,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
         "sha256": "a610b64038079c99d807d0accc36e2207fe932b8e1a89dddb752e787d556b2c6",
-        "sha256_in_prefix": "c44f00eba790a2fd2971126f63700c1c750981a20e7700adb18e741f8be7bca3",
+        "sha256_in_prefix": "54b4246d58b925e2b9d80e9f568cb711fdfb6cb7891db2b064ee88db1b554ed8",
         "size_in_bytes": 239
       },
       {
@@ -73,9 +74,9 @@
       {
         "_path": "lib/python3.6/site-packages/wheel-0.33.6-py3.6.egg-info/SOURCES.txt",
         "path_type": "hardlink",
-        "sha256": "1efa3eadfa576ceaff063b8c9c4f5f98cb8b233fa7233dde8d7e2b264d96f2e8",
-        "sha256_in_prefix": "1efa3eadfa576ceaff063b8c9c4f5f98cb8b233fa7233dde8d7e2b264d96f2e8",
-        "size_in_bytes": 1615
+        "sha256": "b5352a9ae520b5264e953f9c8076afdad20f288cf512d824798f658827eacd6b",
+        "sha256_in_prefix": "b5352a9ae520b5264e953f9c8076afdad20f288cf512d824798f658827eacd6b",
+        "size_in_bytes": 1552
       },
       {
         "_path": "lib/python3.6/site-packages/wheel-0.33.6-py3.6.egg-info/dependency_links.txt",
@@ -143,8 +144,8 @@
       {
         "_path": "lib/python3.6/site-packages/wheel/__pycache__/bdist_wheel.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "5265d31dcd00724a6a403d44dcae490fc9635efdb5d632b79e41de2a3d02d5ec",
-        "sha256_in_prefix": "5265d31dcd00724a6a403d44dcae490fc9635efdb5d632b79e41de2a3d02d5ec",
+        "sha256": "c9cfc2afff5d526ee8d8c49ce13f373afa54f8b9c27abbb6b7d5615e0d2c6882",
+        "sha256_in_prefix": "c9cfc2afff5d526ee8d8c49ce13f373afa54f8b9c27abbb6b7d5615e0d2c6882",
         "size_in_bytes": 10345
       },
       {
@@ -157,8 +158,8 @@
       {
         "_path": "lib/python3.6/site-packages/wheel/__pycache__/pep425tags.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "dcd569ae559a3a301d0484ec01192e7995d6a5f295595f6104de95e8eabd7f7d",
-        "sha256_in_prefix": "dcd569ae559a3a301d0484ec01192e7995d6a5f295595f6104de95e8eabd7f7d",
+        "sha256": "08bfff5d5da63ad4436cea83051f518a73d055174d478659ccecd42d46ce616b",
+        "sha256_in_prefix": "08bfff5d5da63ad4436cea83051f518a73d055174d478659ccecd42d46ce616b",
         "size_in_bytes": 5019
       },
       {
@@ -178,8 +179,8 @@
       {
         "_path": "lib/python3.6/site-packages/wheel/__pycache__/wheelfile.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "ba8334c013fb03519c7ec920301f7a25bcfd8c7033a3ded94135e70b8fd2aae5",
-        "sha256_in_prefix": "ba8334c013fb03519c7ec920301f7a25bcfd8c7033a3ded94135e70b8fd2aae5",
+        "sha256": "be3e069b681d224286e25814b65587ac4b437bde75fdc47184c2c54efbe92a46",
+        "sha256_in_prefix": "be3e069b681d224286e25814b65587ac4b437bde75fdc47184c2c54efbe92a46",
         "size_in_bytes": 5457
       },
       {
@@ -206,8 +207,8 @@
       {
         "_path": "lib/python3.6/site-packages/wheel/cli/__pycache__/convert.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "2bf9be81c9f09aae67e4e3bf683eb5863c337400f91738fd7bff7bda5fa2d1ec",
-        "sha256_in_prefix": "2bf9be81c9f09aae67e4e3bf683eb5863c337400f91738fd7bff7bda5fa2d1ec",
+        "sha256": "b2668d8e799d928b6c116555c809d35a0db8090e5ecf667d1c7e8ce83ca585aa",
+        "sha256_in_prefix": "b2668d8e799d928b6c116555c809d35a0db8090e5ecf667d1c7e8ce83ca585aa",
         "size_in_bytes": 6167
       },
       {
@@ -284,11 +285,11 @@
     "paths_version": 1
   },
   "requested_spec": "None",
-  "sha256": "c2a85b504aa0aac25ccf3014459c11cccf3f12f250c1a26fcc5cf19ada5830ce",
-  "size": 35804,
-  "subdir": "osx-64",
-  "timestamp": 1566143433345,
+  "sha256": "e5f9297793d43275089d6f41f289ae8826d20f9959c399e4ea3dc5c5d6fd19ec",
+  "size": 42845,
+  "subdir": "linux-64",
+  "timestamp": 1569263320834,
   "track_features": "",
-  "url": "https://conda.anaconda.org/conda-forge/osx-64/wheel-0.33.6-py36_0.tar.bz2",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/wheel-0.33.6-py36_0.conda",
   "version": "0.33.6"
 }

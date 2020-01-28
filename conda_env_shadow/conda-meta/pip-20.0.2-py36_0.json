@@ -1,14 +1,14 @@
 {
   "build": "py36_0",
   "build_number": 0,
-  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
   "constrains": [],
   "depends": [
     "python >=3.6,<3.7.0a0",
     "setuptools",
     "wheel"
   ],
-  "extracted_package_dir": "/Users/ygong/miniconda3/pkgs/pip-20.0.2-py36_0",
+  "extracted_package_dir": "/home/gong/miniconda3/pkgs/pip-20.0.2-py36_0",
   "features": "",
   "files": [
     "bin/pip",
@@ -713,16 +713,17 @@
     "lib/python3.6/site-packages/pip/_vendor/webencodings/tests.py",
     "lib/python3.6/site-packages/pip/_vendor/webencodings/x_user_defined.py"
   ],
-  "fn": "pip-20.0.2-py36_0.tar.bz2",
+  "fn": "pip-20.0.2-py36_0.conda",
+  "legacy_bz2_md5": "b773d5c6283f1339caed313751438639",
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/Users/ygong/miniconda3/pkgs/pip-20.0.2-py36_0",
+    "source": "/home/gong/miniconda3/pkgs/pip-20.0.2-py36_0",
     "type": 3
   },
-  "md5": "0a8616ce3430e6c558df2a9c13e8880c",
+  "md5": "46ca184e73b78eb0851ae52ab0392059",
   "name": "pip",
-  "package_tarball_full_path": "/Users/ygong/miniconda3/pkgs/pip-20.0.2-py36_0.tar.bz2",
+  "package_tarball_full_path": "/home/gong/miniconda3/pkgs/pip-20.0.2-py36_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -731,7 +732,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
         "sha256": "24a2b25d389208fcc34b0315f03f39df72e712d52b5d94dc6a7f1503157387aa",
-        "sha256_in_prefix": "0341eba6591ff144bf35e7a9f3ce4752681355edf1ac99a776cf0c6ded80a713",
+        "sha256_in_prefix": "73aae9b7d1a5a9765ab53ba775faa67c6dcd60d59b301f74e8d6420db290e7c6",
         "size_in_bytes": 248
       },
       {
@@ -835,8 +836,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_internal/__pycache__/configuration.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "b4ed5779a8a63c4d9f7ddbde7467cf1b9bf61b97c7f9d4eb70075dd4360185a7",
-        "sha256_in_prefix": "b4ed5779a8a63c4d9f7ddbde7467cf1b9bf61b97c7f9d4eb70075dd4360185a7",
+        "sha256": "0aed4eb1c3548973bd844370e20588e767f65003577e832b034986b652ac54e8",
+        "sha256_in_prefix": "0aed4eb1c3548973bd844370e20588e767f65003577e832b034986b652ac54e8",
         "size_in_bytes": 10514
       },
       {
@@ -856,8 +857,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_internal/__pycache__/locations.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "fc6829a44d72e7745c9b70b82eddbeced6a6596aef639cacc2de2d1600fb8ba6",
-        "sha256_in_prefix": "fc6829a44d72e7745c9b70b82eddbeced6a6596aef639cacc2de2d1600fb8ba6",
+        "sha256": "58bf2aa26377e8ced9e558fc02b24ebb2b03fbe63a84b3485413d5a964a45c7c",
+        "sha256_in_prefix": "58bf2aa26377e8ced9e558fc02b24ebb2b03fbe63a84b3485413d5a964a45c7c",
         "size_in_bytes": 4433
       },
       {
@@ -870,8 +871,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_internal/__pycache__/pep425tags.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "aced591170629035974f15a2a2fb1652e0aa04454f19a450c59fca6968b85807",
-        "sha256_in_prefix": "aced591170629035974f15a2a2fb1652e0aa04454f19a450c59fca6968b85807",
+        "sha256": "8901d4f58553b83c21fbaaedf35f9f60db42dfb3ec78bd4377941097b083b34f",
+        "sha256_in_prefix": "8901d4f58553b83c21fbaaedf35f9f60db42dfb3ec78bd4377941097b083b34f",
         "size_in_bytes": 3543
       },
       {
@@ -891,8 +892,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_internal/__pycache__/wheel_builder.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "d037592e7fb4481d20958a2e2fede24e39bb418acb01042b0d6f12d473226ecc",
-        "sha256_in_prefix": "d037592e7fb4481d20958a2e2fede24e39bb418acb01042b0d6f12d473226ecc",
+        "sha256": "73b5395302712a3955f80b2e7cafbe2e9e60514cfea493c38371cdb8186f5583",
+        "sha256_in_prefix": "73b5395302712a3955f80b2e7cafbe2e9e60514cfea493c38371cdb8186f5583",
         "size_in_bytes": 6573
       },
       {
@@ -933,8 +934,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_internal/cli/__pycache__/base_command.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "a375467e38e97eda16ad0472b2ac51b0e0f338ecac81f3fd8129598a7e62ea2c",
-        "sha256_in_prefix": "a375467e38e97eda16ad0472b2ac51b0e0f338ecac81f3fd8129598a7e62ea2c",
+        "sha256": "04d50c797449d06e03d672394c99959dc9a046e3129d3e675477c3f90d9186d7",
+        "sha256_in_prefix": "04d50c797449d06e03d672394c99959dc9a046e3129d3e675477c3f90d9186d7",
         "size_in_bytes": 5708
       },
       {
@@ -1087,8 +1088,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_internal/commands/__pycache__/debug.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "52e5c4ced837d629bbf6501e80b1ef2522c69d9285d574df5ee89e596d998375",
-        "sha256_in_prefix": "52e5c4ced837d629bbf6501e80b1ef2522c69d9285d574df5ee89e596d998375",
+        "sha256": "7cf595634cb06b681b74a4d443da154a8aefa88dd918740ae89cef7e6b167d65",
+        "sha256_in_prefix": "7cf595634cb06b681b74a4d443da154a8aefa88dd918740ae89cef7e6b167d65",
         "size_in_bytes": 4038
       },
       {
@@ -1360,8 +1361,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_internal/index/__pycache__/collector.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "3916dd0d9018d0b10cc6641e219c04c01a129d92a0145e2f8f924b9ad6296349",
-        "sha256_in_prefix": "3916dd0d9018d0b10cc6641e219c04c01a129d92a0145e2f8f924b9ad6296349",
+        "sha256": "915537d57b652310e6d950be0f002980258b4ac9089023fbb2a4157efce3744f",
+        "sha256_in_prefix": "915537d57b652310e6d950be0f002980258b4ac9089023fbb2a4157efce3744f",
         "size_in_bytes": 14040
       },
       {
@@ -1577,8 +1578,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_internal/network/__pycache__/download.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "880f17ba31923f807484a51f56dd7a753799f9215f23863fc1d36cd4ae293b49",
-        "sha256_in_prefix": "880f17ba31923f807484a51f56dd7a753799f9215f23863fc1d36cd4ae293b49",
+        "sha256": "13a0e877f14d44196c809d6a718a6671fc898d77b1783c6c236c9f114bb048f4",
+        "sha256_in_prefix": "13a0e877f14d44196c809d6a718a6671fc898d77b1783c6c236c9f114bb048f4",
         "size_in_bytes": 4301
       },
       {
@@ -1857,8 +1858,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_internal/req/__pycache__/constructors.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "72c324898d221da5aac346cd71a9ad5de41a448e6ec60aba9b2d48d52fbae981",
-        "sha256_in_prefix": "72c324898d221da5aac346cd71a9ad5de41a448e6ec60aba9b2d48d52fbae981",
+        "sha256": "6ff8f011a522a2473122a234b73ea3987c3cdfa3971d02832cabd7beb279ffa1",
+        "sha256_in_prefix": "6ff8f011a522a2473122a234b73ea3987c3cdfa3971d02832cabd7beb279ffa1",
         "size_in_bytes": 10213
       },
       {
@@ -1871,8 +1872,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_internal/req/__pycache__/req_install.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "c4f2fbac24b685f14febfe1d9544a715a6c29b22de4dca8c3ddeae688c582bb2",
-        "sha256_in_prefix": "c4f2fbac24b685f14febfe1d9544a715a6c29b22de4dca8c3ddeae688c582bb2",
+        "sha256": "9042dcfcdd87f2f76605f98b96040bdfd5627907a0e0d47addbff098e4cebdd1",
+        "sha256_in_prefix": "9042dcfcdd87f2f76605f98b96040bdfd5627907a0e0d47addbff098e4cebdd1",
         "size_in_bytes": 21125
       },
       {
@@ -1892,8 +1893,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_internal/req/__pycache__/req_uninstall.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "224287e524deecc3eb28042d1fefc36b3424df975653b96c7e6ff658c9886b6c",
-        "sha256_in_prefix": "224287e524deecc3eb28042d1fefc36b3424df975653b96c7e6ff658c9886b6c",
+        "sha256": "4f9cfcacb81583691269c2934b516c8f8acb928b57d0c64a3d765ed2d85c7bae",
+        "sha256_in_prefix": "4f9cfcacb81583691269c2934b516c8f8acb928b57d0c64a3d765ed2d85c7bae",
         "size_in_bytes": 17335
       },
       {
@@ -1969,8 +1970,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_internal/utils/__pycache__/compat.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "7ff8faef735a4a1d0db3f645a617c46518462fa6363681f98f10367c7db9377b",
-        "sha256_in_prefix": "7ff8faef735a4a1d0db3f645a617c46518462fa6363681f98f10367c7db9377b",
+        "sha256": "d4195b78751fe6dfd70f88a51e476571c52c41ad04f10897ad87f9cadc243272",
+        "sha256_in_prefix": "d4195b78751fe6dfd70f88a51e476571c52c41ad04f10897ad87f9cadc243272",
         "size_in_bytes": 6146
       },
       {
@@ -1990,8 +1991,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_internal/utils/__pycache__/encoding.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "c07adb999cb42c61d0bc240969c9c2b10c92b25d12eeae4ac5b4f8df2fa54413",
-        "sha256_in_prefix": "c07adb999cb42c61d0bc240969c9c2b10c92b25d12eeae4ac5b4f8df2fa54413",
+        "sha256": "148ad6d691542a81c85d7dc1a7decaf529a2dfd05c672b89c95aa46e9ab36968",
+        "sha256_in_prefix": "148ad6d691542a81c85d7dc1a7decaf529a2dfd05c672b89c95aa46e9ab36968",
         "size_in_bytes": 1226
       },
       {
@@ -2004,8 +2005,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_internal/utils/__pycache__/filesystem.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "5adb1dd2cf8b39161ec1617903129fd1b77b24cbab3151214aede701d3017326",
-        "sha256_in_prefix": "5adb1dd2cf8b39161ec1617903129fd1b77b24cbab3151214aede701d3017326",
+        "sha256": "538b2818f77b55d8ab2709384ade906108d8dfbcd3ba12e698c485c0d2c0c6c8",
+        "sha256_in_prefix": "538b2818f77b55d8ab2709384ade906108d8dfbcd3ba12e698c485c0d2c0c6c8",
         "size_in_bytes": 3966
       },
       {
@@ -2018,8 +2019,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_internal/utils/__pycache__/glibc.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "1e60076105019d5e9c4852006a3e56b561cfdf336e8cc7c7a5636888dcb550f8",
-        "sha256_in_prefix": "1e60076105019d5e9c4852006a3e56b561cfdf336e8cc7c7a5636888dcb550f8",
+        "sha256": "3f258b264f3f52b4f16d77c66afc3547b2e2d4441833361bbbc50626a9234bcd",
+        "sha256_in_prefix": "3f258b264f3f52b4f16d77c66afc3547b2e2d4441833361bbbc50626a9234bcd",
         "size_in_bytes": 1678
       },
       {
@@ -2123,8 +2124,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_internal/utils/__pycache__/urls.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "f8ec7132a34358d509002a6db0128a9cd966686e5f6b302ad4b3a450508661e6",
-        "sha256_in_prefix": "f8ec7132a34358d509002a6db0128a9cd966686e5f6b302ad4b3a450508661e6",
+        "sha256": "dd27f786d5b6c935450206d6a0e68f2ec7fb0278d42a72d6b5ca410884945631",
+        "sha256_in_prefix": "dd27f786d5b6c935450206d6a0e68f2ec7fb0278d42a72d6b5ca410884945631",
         "size_in_bytes": 1438
       },
       {
@@ -2459,8 +2460,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/__pycache__/pyparsing.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "c0f4ae9948117ff32551f9d0ff93c8b5be442d94ae1723c3c47e4c4d1a402aca",
-        "sha256_in_prefix": "c0f4ae9948117ff32551f9d0ff93c8b5be442d94ae1723c3c47e4c4d1a402aca",
+        "sha256": "d43a3b547d5a72782ceeed892d87226d359007b9eda20aa5f345b6a39c1cf245",
+        "sha256_in_prefix": "d43a3b547d5a72782ceeed892d87226d359007b9eda20aa5f345b6a39c1cf245",
         "size_in_bytes": 242599
       },
       {
@@ -2473,8 +2474,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/__pycache__/six.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "43749c0c05792bca0774c8341b6d4e6e231db1b5647f641d561ca40e5db469c0",
-        "sha256_in_prefix": "43749c0c05792bca0774c8341b6d4e6e231db1b5647f641d561ca40e5db469c0",
+        "sha256": "85aa3fb839370cf79d7d047dc473b44cc7ffcefe7b41748aa2abdf9233524444",
+        "sha256_in_prefix": "85aa3fb839370cf79d7d047dc473b44cc7ffcefe7b41748aa2abdf9233524444",
         "size_in_bytes": 26953
       },
       {
@@ -2508,8 +2509,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/cachecontrol/__pycache__/adapter.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "63aaea92110ad7c59af74d29d0127e82e57b6a3e50da3b197cb87496e861f915",
-        "sha256_in_prefix": "63aaea92110ad7c59af74d29d0127e82e57b6a3e50da3b197cb87496e861f915",
+        "sha256": "41d5ef5af61a10ed7bb4cb17f6939984a6674838e97201fd548388f4e8b90014",
+        "sha256_in_prefix": "41d5ef5af61a10ed7bb4cb17f6939984a6674838e97201fd548388f4e8b90014",
         "size_in_bytes": 2999
       },
       {
@@ -2543,8 +2544,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/cachecontrol/__pycache__/heuristics.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "ab6a1229c9329591c16c0ef6f0cfb74d58537348d559614926c4b654b374e135",
-        "sha256_in_prefix": "ab6a1229c9329591c16c0ef6f0cfb74d58537348d559614926c4b654b374e135",
+        "sha256": "3f746feb2b14c30aea4c234f2811eb345654883cec453b6c9bc8641e075e4795",
+        "sha256_in_prefix": "3f746feb2b14c30aea4c234f2811eb345654883cec453b6c9bc8641e075e4795",
         "size_in_bytes": 4634
       },
       {
@@ -3313,8 +3314,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/colorama/__pycache__/ansitowin32.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "1f5ff7f0acd610ba0bf2b28f1278c4f680c361cb3e3f4cac1948470db5aadda8",
-        "sha256_in_prefix": "1f5ff7f0acd610ba0bf2b28f1278c4f680c361cb3e3f4cac1948470db5aadda8",
+        "sha256": "b98791c69e797e333f05bbf5dfeb860f7982052c9e125574cae9493278b0d099",
+        "sha256_in_prefix": "b98791c69e797e333f05bbf5dfeb860f7982052c9e125574cae9493278b0d099",
         "size_in_bytes": 7567
       },
       {
@@ -3397,8 +3398,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/distlib/__pycache__/compat.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "6cb5643d719085bb122bff2dbb7ac69b8817d2b1982f9ec8bb6a4bdb264cc23f",
-        "sha256_in_prefix": "6cb5643d719085bb122bff2dbb7ac69b8817d2b1982f9ec8bb6a4bdb264cc23f",
+        "sha256": "8c5d4c382df6db9722a3bae6dfc3079f62ae743ca0f683c8654df23ff1d00502",
+        "sha256_in_prefix": "8c5d4c382df6db9722a3bae6dfc3079f62ae743ca0f683c8654df23ff1d00502",
         "size_in_bytes": 32018
       },
       {
@@ -3418,8 +3419,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/distlib/__pycache__/locators.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "c81baf531e23b12b1d511fd5420fcd515813da763a7619589418abe8dd3b871d",
-        "sha256_in_prefix": "c81baf531e23b12b1d511fd5420fcd515813da763a7619589418abe8dd3b871d",
+        "sha256": "dca8785b133aeffdb82eec82499d4164bbc68f98f8730f4b02eb3bdfbe849403",
+        "sha256_in_prefix": "dca8785b133aeffdb82eec82499d4164bbc68f98f8730f4b02eb3bdfbe849403",
         "size_in_bytes": 38900
       },
       {
@@ -3474,8 +3475,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/distlib/__pycache__/wheel.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "e6371c56af3de49538e3395ddfe6109d1c5ffba8a4cb5643a42730a023fae853",
-        "sha256_in_prefix": "e6371c56af3de49538e3395ddfe6109d1c5ffba8a4cb5643a42730a023fae853",
+        "sha256": "b2593268b6f1caa852b278a3333a289a1135cc7dd6e34d1de1da837db3ea369d",
+        "sha256_in_prefix": "b2593268b6f1caa852b278a3333a289a1135cc7dd6e34d1de1da837db3ea369d",
         "size_in_bytes": 25677
       },
       {
@@ -3495,29 +3496,29 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/distlib/_backport/__pycache__/misc.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "855b864413e2c896b328e2db3b51e865be21690d08b1b67772b46e8f99ba3caa",
-        "sha256_in_prefix": "855b864413e2c896b328e2db3b51e865be21690d08b1b67772b46e8f99ba3caa",
+        "sha256": "34711dc8df9726388f53ef769c6d5cc0f02e2060f6937a9fe3fa97927c9e001d",
+        "sha256_in_prefix": "34711dc8df9726388f53ef769c6d5cc0f02e2060f6937a9fe3fa97927c9e001d",
         "size_in_bytes": 1031
       },
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/distlib/_backport/__pycache__/shutil.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "b8c99bc80c859186053ea37fb3c3b965bec1e049802a09af15c7d7e3f5507476",
-        "sha256_in_prefix": "b8c99bc80c859186053ea37fb3c3b965bec1e049802a09af15c7d7e3f5507476",
+        "sha256": "fe589de312e0d2950ec4cf9a32b57d5e87f56179ffec8b5e94bfb3f9f11911f4",
+        "sha256_in_prefix": "fe589de312e0d2950ec4cf9a32b57d5e87f56179ffec8b5e94bfb3f9f11911f4",
         "size_in_bytes": 21387
       },
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/distlib/_backport/__pycache__/sysconfig.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "db7ff7cfbccdfa2c1cae35b2c9260af09882ce487f1a50a9a84691f023f35cd4",
-        "sha256_in_prefix": "db7ff7cfbccdfa2c1cae35b2c9260af09882ce487f1a50a9a84691f023f35cd4",
+        "sha256": "a95edf98f3fdee197a1549d53900420b94ea8f099c534e7c86dd48c624ae77f6",
+        "sha256_in_prefix": "a95edf98f3fdee197a1549d53900420b94ea8f099c534e7c86dd48c624ae77f6",
         "size_in_bytes": 16016
       },
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/distlib/_backport/__pycache__/tarfile.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "c2a66c36a5a11e668bfdd528adea89669fd755dd6e4f1320887c846a8d3854b3",
-        "sha256_in_prefix": "c2a66c36a5a11e668bfdd528adea89669fd755dd6e4f1320887c846a8d3854b3",
+        "sha256": "896bb58b5b1212b0c41cdb6655f49cb1d731e3d1708a33dca916c0abe8bb215d",
+        "sha256_in_prefix": "896bb58b5b1212b0c41cdb6655f49cb1d731e3d1708a33dca916c0abe8bb215d",
         "size_in_bytes": 62998
       },
       {
@@ -4181,8 +4182,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/idna/__pycache__/core.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "04c2076af268900f85698e76da7695706ca6d12236a5eedcef402ca9a9d3462e",
-        "sha256_in_prefix": "04c2076af268900f85698e76da7695706ca6d12236a5eedcef402ca9a9d3462e",
+        "sha256": "f8cd3709b10707ecb1db92543b136435654167c57675cbd2adcef81fe99a71c0",
+        "sha256_in_prefix": "f8cd3709b10707ecb1db92543b136435654167c57675cbd2adcef81fe99a71c0",
         "size_in_bytes": 9108
       },
       {
@@ -4398,8 +4399,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/packaging/__pycache__/tags.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "b105bb5359651023a0a1510a0e4243e9072178d5054c671acf8e7e5a764c48ac",
-        "sha256_in_prefix": "b105bb5359651023a0a1510a0e4243e9072178d5054c671acf8e7e5a764c48ac",
+        "sha256": "5f2cf9062f49b9232ef72c08a347b22e08aa2c2347c91430a2a2b493ad937b93",
+        "sha256_in_prefix": "5f2cf9062f49b9232ef72c08a347b22e08aa2c2347c91430a2a2b493ad937b93",
         "size_in_bytes": 16552
       },
       {
@@ -4510,8 +4511,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/pep517/__pycache__/check.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "f30847f5267387cf3910ba9ce5bf4532c2ee3a0f10fdcb520c6dba0f2b1f6bca",
-        "sha256_in_prefix": "f30847f5267387cf3910ba9ce5bf4532c2ee3a0f10fdcb520c6dba0f2b1f6bca",
+        "sha256": "3bad88bc31463ff1a9d20978938c5d78cfd58f832240548dbb1859115732d67f",
+        "sha256_in_prefix": "3bad88bc31463ff1a9d20978938c5d78cfd58f832240548dbb1859115732d67f",
         "size_in_bytes": 4798
       },
       {
@@ -4538,8 +4539,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/pep517/__pycache__/envbuild.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "03b61face21ed026401975fd739d38cba5fc7bcfe10ad72c88e4671ae9075f83",
-        "sha256_in_prefix": "03b61face21ed026401975fd739d38cba5fc7bcfe10ad72c88e4671ae9075f83",
+        "sha256": "144951731f5264e8404c375548013b2fb5056d250910e00c8c629e17df10db8c",
+        "sha256_in_prefix": "144951731f5264e8404c375548013b2fb5056d250910e00c8c629e17df10db8c",
         "size_in_bytes": 4287
       },
       {
@@ -4552,8 +4553,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/pep517/__pycache__/wrappers.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "44db0e27e0fbf779853b164b48d260713d4f5b2836e11a4c406ffd1d7c405e6a",
-        "sha256_in_prefix": "44db0e27e0fbf779853b164b48d260713d4f5b2836e11a4c406ffd1d7c405e6a",
+        "sha256": "bdecfa1f96d6f46d59da178085d06cf973867536763da0aa28a43f31ddb2c1a2",
+        "sha256_in_prefix": "bdecfa1f96d6f46d59da178085d06cf973867536763da0aa28a43f31ddb2c1a2",
         "size_in_bytes": 10066
       },
       {
@@ -4629,8 +4630,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/pkg_resources/__pycache__/__init__.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "ae5c3b0bea44a3827101618696db7e28a3a8b57c92156193406de570d4cc58c4",
-        "sha256_in_prefix": "ae5c3b0bea44a3827101618696db7e28a3a8b57c92156193406de570d4cc58c4",
+        "sha256": "ddc628d56e05487941537dd3dd5d746f84cd6c8247a6f65e7f9421225b2c5439",
+        "sha256_in_prefix": "ddc628d56e05487941537dd3dd5d746f84cd6c8247a6f65e7f9421225b2c5439",
         "size_in_bytes": 99727
       },
       {
@@ -4825,8 +4826,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/requests/__pycache__/adapters.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "79871cf937e0d7cb2a8c5fa3fb30be55c8151ac985f92f220b95600a9ea84505",
-        "sha256_in_prefix": "79871cf937e0d7cb2a8c5fa3fb30be55c8151ac985f92f220b95600a9ea84505",
+        "sha256": "865de0dac9c18ae9b64095a491334ca50fb3dcdc6bc4589a45629822ad0e5fc4",
+        "sha256_in_prefix": "865de0dac9c18ae9b64095a491334ca50fb3dcdc6bc4589a45629822ad0e5fc4",
         "size_in_bytes": 16850
       },
       {
@@ -4902,8 +4903,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/requests/__pycache__/sessions.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "63c5259619f21b07ec19eee3f306116287d9cfbb7085fd00ea45893c582f959e",
-        "sha256_in_prefix": "63c5259619f21b07ec19eee3f306116287d9cfbb7085fd00ea45893c582f959e",
+        "sha256": "b4035aaeb36f7dd6b858555104909109764631b470e7673d0f2b4f9318189aaa",
+        "sha256_in_prefix": "b4035aaeb36f7dd6b858555104909109764631b470e7673d0f2b4f9318189aaa",
         "size_in_bytes": 19377
       },
       {
@@ -4923,8 +4924,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/requests/__pycache__/utils.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "eaef054d7cc4d7c5f594362e1988656dc22e156d9f6ee1775b6126dd7b3cf57b",
-        "sha256_in_prefix": "eaef054d7cc4d7c5f594362e1988656dc22e156d9f6ee1775b6126dd7b3cf57b",
+        "sha256": "1e0d0e951dc29db22865e1ccca40f6133ef375b98fd9bfe546f7e170a665ebcd",
+        "sha256_in_prefix": "1e0d0e951dc29db22865e1ccca40f6133ef375b98fd9bfe546f7e170a665ebcd",
         "size_in_bytes": 22111
       },
       {
@@ -5105,8 +5106,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/urllib3/__pycache__/fields.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "9b5d757aaf790d7f1ff37c4d32bcb92d65b469f040727302ae1989d3112f35d9",
-        "sha256_in_prefix": "9b5d757aaf790d7f1ff37c4d32bcb92d65b469f040727302ae1989d3112f35d9",
+        "sha256": "edc9de5209009d07127a593cb989466afd719b964a8d6c9909721543b4014859",
+        "sha256_in_prefix": "edc9de5209009d07127a593cb989466afd719b964a8d6c9909721543b4014859",
         "size_in_bytes": 8055
       },
       {
@@ -5119,8 +5120,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/urllib3/__pycache__/poolmanager.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "b5d26360d2490acf8868a4076f9b41214a87a8dfa86d164de1cf0213d95f36bd",
-        "sha256_in_prefix": "b5d26360d2490acf8868a4076f9b41214a87a8dfa86d164de1cf0213d95f36bd",
+        "sha256": "182e4d405211a3677dbc9ae9d87b7804113dae7e7539850c04b8047a3cffe759",
+        "sha256_in_prefix": "182e4d405211a3677dbc9ae9d87b7804113dae7e7539850c04b8047a3cffe759",
         "size_in_bytes": 13074
       },
       {
@@ -5189,15 +5190,15 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/urllib3/contrib/__pycache__/ntlmpool.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "44e3aaca4c0bbda9d45567a94c0f9fa6d093eac70d0e373f38b33f5e61d99579",
-        "sha256_in_prefix": "44e3aaca4c0bbda9d45567a94c0f9fa6d093eac70d0e373f38b33f5e61d99579",
+        "sha256": "35b5048116c6add64925ef01fa7903394f3868ebdb04707ff318bcd5bea60cfc",
+        "sha256_in_prefix": "35b5048116c6add64925ef01fa7903394f3868ebdb04707ff318bcd5bea60cfc",
         "size_in_bytes": 3196
       },
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/urllib3/contrib/__pycache__/pyopenssl.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "ea43479127c228063d10a06d6bc462ba4712a73d45ba0ba6aca96e8010cc954b",
-        "sha256_in_prefix": "ea43479127c228063d10a06d6bc462ba4712a73d45ba0ba6aca96e8010cc954b",
+        "sha256": "c3d5f7be25b40b4a9528c697b6b67ce0f815f0d6ce78a7f9d04e102ade2b4aad",
+        "sha256_in_prefix": "c3d5f7be25b40b4a9528c697b6b67ce0f815f0d6ce78a7f9d04e102ade2b4aad",
         "size_in_bytes": 14818
       },
       {
@@ -5336,8 +5337,8 @@
       {
         "_path": "lib/python3.6/site-packages/pip/_vendor/urllib3/packages/__pycache__/six.cpython-36.pyc",
         "path_type": "hardlink",
-        "sha256": "ecb40f5e4698fd191351a9aeff55148d21403406f2ed2604bd0849ea76b8d4b4",
-        "sha256_in_prefix": "ecb40f5e4698fd191351a9aeff55148d21403406f2ed2604bd0849ea76b8d4b4",
+        "sha256": "e12b69c7b2f262dc1a9f3bbcc64ac57ef28b80555ba2cfe30c7f67e8bedb7807",
+        "sha256_in_prefix": "e12b69c7b2f262dc1a9f3bbcc64ac57ef28b80555ba2cfe30c7f67e8bedb7807",
         "size_in_bytes": 26503
       },
       {
@@ -5638,11 +5639,11 @@
     "paths_version": 1
   },
   "requested_spec": "None",
-  "sha256": "506cc31befb591a752aed4c3b92fdae12ed89fdd80f6931ce39a07992782b2ce",
-  "size": 2013279,
-  "subdir": "osx-64",
-  "timestamp": 1579880220099,
+  "sha256": "e60602de6d65098aaffa386f6b7577172a70b4f00a93582aaa5021e488f91087",
+  "size": 1765673,
+  "subdir": "linux-64",
+  "timestamp": 1580148298627,
   "track_features": "",
-  "url": "https://conda.anaconda.org/conda-forge/osx-64/pip-20.0.2-py36_0.tar.bz2",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pip-20.0.2-py36_0.conda",
   "version": "20.0.2"
 }

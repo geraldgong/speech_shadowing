@@ -142,9 +142,6 @@ EXTERN void		TkSendCleanup(TkDisplay *dispPtr);
 EXTERN int		TkpTestsendCmd(ClientData clientData,
 				Tcl_Interp *interp, int objc,
 				Tcl_Obj *const objv[]);
-/* Slot 46 is reserved */
-/* 47 */
-EXTERN Tk_Window	TkpGetCapture(void);
 #endif /* WIN */
 #ifdef MAC_OSX_TK /* AQUA */
 /* 0 */
@@ -227,7 +224,8 @@ EXTERN void		TkMacOSXWindowOffset(void *wRef, int *xOffset,
 EXTERN int		TkSetMacColor(unsigned long pixel, void *macColor);
 /* 39 */
 EXTERN void		TkSetWMName(TkWindow *winPtr, Tk_Uid titleUid);
-/* Slot 40 is reserved */
+/* 40 */
+EXTERN void		TkSuspendClipboard(void);
 /* 41 */
 EXTERN int		TkMacOSXZoomToplevel(void *whichWindow,
 				short zoomPart);
@@ -246,7 +244,7 @@ EXTERN int		TkpIsWindowFloating(void *window);
 EXTERN Tk_Window	TkMacOSXGetCapture(void);
 /* Slot 48 is reserved */
 /* 49 */
-EXTERN Tk_Window	TkGetTransientMaster(TkWindow *winPtr);
+EXTERN Window		TkGetTransientMaster(TkWindow *winPtr);
 /* 50 */
 EXTERN int		TkGenerateButtonEvent(int x, int y, Window window,
 				unsigned int state);
@@ -344,8 +342,6 @@ typedef struct TkIntPlatStubs {
     void (*tkWmCleanup) (TkDisplay *dispPtr); /* 43 */
     void (*tkSendCleanup) (TkDisplay *dispPtr); /* 44 */
     int (*tkpTestsendCmd) (ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *const objv[]); /* 45 */
-    void (*reserved46)(void);
-    Tk_Window (*tkpGetCapture) (void); /* 47 */
 #endif /* WIN */
 #ifdef MAC_OSX_TK /* AQUA */
     void (*tkGenerateActivateEvents) (TkWindow *winPtr, int active); /* 0 */
@@ -388,7 +384,7 @@ typedef struct TkIntPlatStubs {
     void (*tkMacOSXWindowOffset) (void *wRef, int *xOffset, int *yOffset); /* 37 */
     int (*tkSetMacColor) (unsigned long pixel, void *macColor); /* 38 */
     void (*tkSetWMName) (TkWindow *winPtr, Tk_Uid titleUid); /* 39 */
-    void (*reserved40)(void);
+    void (*tkSuspendClipboard) (void); /* 40 */
     int (*tkMacOSXZoomToplevel) (void *whichWindow, short zoomPart); /* 41 */
     Tk_Window (*tk_TopCoordsToWindow) (Tk_Window tkwin, int rootX, int rootY, int *newX, int *newY); /* 42 */
     MacDrawable * (*tkMacOSXContainerId) (TkWindow *winPtr); /* 43 */
@@ -397,7 +393,7 @@ typedef struct TkIntPlatStubs {
     int (*tkpIsWindowFloating) (void *window); /* 46 */
     Tk_Window (*tkMacOSXGetCapture) (void); /* 47 */
     void (*reserved48)(void);
-    Tk_Window (*tkGetTransientMaster) (TkWindow *winPtr); /* 49 */
+    Window (*tkGetTransientMaster) (TkWindow *winPtr); /* 49 */
     int (*tkGenerateButtonEvent) (int x, int y, Window window, unsigned int state); /* 50 */
     void (*tkGenWMDestroyEvent) (Tk_Window tkwin); /* 51 */
     void (*tkMacOSXSetDrawingEnabled) (TkWindow *winPtr, int flag); /* 52 */
@@ -527,9 +523,6 @@ extern const TkIntPlatStubs *tkIntPlatStubsPtr;
 	(tkIntPlatStubsPtr->tkSendCleanup) /* 44 */
 #define TkpTestsendCmd \
 	(tkIntPlatStubsPtr->tkpTestsendCmd) /* 45 */
-/* Slot 46 is reserved */
-#define TkpGetCapture \
-	(tkIntPlatStubsPtr->tkpGetCapture) /* 47 */
 #endif /* WIN */
 #ifdef MAC_OSX_TK /* AQUA */
 #define TkGenerateActivateEvents \
@@ -606,7 +599,8 @@ extern const TkIntPlatStubs *tkIntPlatStubsPtr;
 	(tkIntPlatStubsPtr->tkSetMacColor) /* 38 */
 #define TkSetWMName \
 	(tkIntPlatStubsPtr->tkSetWMName) /* 39 */
-/* Slot 40 is reserved */
+#define TkSuspendClipboard \
+	(tkIntPlatStubsPtr->tkSuspendClipboard) /* 40 */
 #define TkMacOSXZoomToplevel \
 	(tkIntPlatStubsPtr->tkMacOSXZoomToplevel) /* 41 */
 #define Tk_TopCoordsToWindow \

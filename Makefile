@@ -37,12 +37,12 @@ conda-env-build: $(CONDA_ENV_NAME)  ## Build the conda environment
 $(CONDA_ENV_NAME):
 	conda create -p $(CONDA_ENV_NAME)  --copy -y  python=$(PY_VERSION)
 	$(ACTIVATE_ENV) && python -s -m pip install -r requirements.txt
-    
+
 .PHONY: clean-conda-env
 clean-conda-env:  ## Remove the conda environment and zip files
 	rm -rf $(CONDA_ENV_NAME)
 	rm -rf $(CONDA_ENV_NAME).zip
-    
+
 .PHONY: register-env-in-jupyter
 register-env-in-jupyter: ## Make our conda env available from Jupyter
 	$(ACTIVATE_ENV) && python -s -m ipykernel install --user --name $(CONDA_ENV_NAME)

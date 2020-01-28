@@ -43,8 +43,6 @@
 
 #define PURGE_REGEXP	0x01
 
-int hist_purgecmd (char *, int);
-
 static void
 usage()
 {

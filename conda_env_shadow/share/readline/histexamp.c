@@ -27,11 +27,8 @@
 #  include <readline/history.h>
 #endif
 
-#include <unistd.h>
-#include <stdlib.h>
 #include <string.h>
 
-int
 main (argc, argv)
      int argc;
      char **argv;
