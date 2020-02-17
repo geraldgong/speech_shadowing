@@ -28,7 +28,7 @@ help:
 ###################
 
 PY_VERSION := 3.6
-CONDA_ENV_NAME ?= conda_env_shadow
+CONDA_ENV_NAME ?= conda-env-shadow
 CONDA_ENV_HDFS_PATH ?= /user/$(USER)/conda-envs/
 ACTIVATE_ENV = source activate ./$(CONDA_ENV_NAME)
 
@@ -46,3 +46,7 @@ clean-conda-env:  ## Remove the conda environment and zip files
 .PHONY: register-env-in-jupyter
 register-env-in-jupyter: ## Make our conda env available from Jupyter
 	$(ACTIVATE_ENV) && python -s -m ipykernel install --user --name $(CONDA_ENV_NAME)
+
+.PHONY: remove-env-from-jupyter
+remove-env-from-jupyter: ## Remove your conda env from Jupyter
+	jupyter kernelspec uninstall $(CONDA_ENV_NAME)
