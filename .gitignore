@@ -1,4 +1,4 @@
 data/
 .ipynb_checkpoints
-conda_env_shadow/
+conda-env-shadow/
 .idea/
