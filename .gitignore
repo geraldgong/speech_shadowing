@@ -2,3 +2,4 @@ data/
 .ipynb_checkpoints
 conda-env-shadow/
 .idea/
+__pycache__
